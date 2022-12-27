@@ -47,7 +47,7 @@ const App = () => {
 
 
   return (
-    <div className="App">
+    <div className="App px-2">
 	  <ToastContainer autoClose={1250} theme="colored" closeOnClick={false} pauseOnHover={false} hideProgressBar={true}/>
       <div className="container">
         <h1 className="text-black font-qs text-4xl font-bold pt-5">Welcome to Note App</h1>

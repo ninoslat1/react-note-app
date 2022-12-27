@@ -1,6 +1,6 @@
 const ShoutoutNote = ({date}) => {
     return (
-      <div className='rounded-xl p-4 h-[40vh] flex flex-col justify-between whitespace-pre-wrap break-words bg-white text-black'>
+      <div className='rounded-xl p-4 h-[40vh] flex flex-col justify-between whitespace-pre-wrap break-words bg-black text-white'>
           <p className="text-xl">Big thanks to  
           <a href="https://reactjs.org/" target="_blank" className="react"><span> React</span></a>, 
           <a href="https://vitejs.dev/" target="_blank" className="vite"><span> Vite</span></a>,

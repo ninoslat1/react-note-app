@@ -20,7 +20,7 @@ function AddNote({handleAddNote}) {
 
   return (
     <>
-    <div className='note new'>
+    <div className='note new my-10 md:my-0'>
         <textarea rows='8' cols='10' placeholder='Write your activity' onChange={handleChange} value={noteWord}></textarea>
         <div className='note-footer'>
             <small>{textLimit - noteWord.length}/{textLimit}</small>

@@ -20,10 +20,12 @@ const App = () => {
 	useEffect(() => {
 		const savedNotes = JSON.parse(
 			localStorage.getItem('react-notes-app-data')
-		)
+			)
+			toast.success("Local storage is found")
 
 		if (savedNotes) {
 			setNotes(savedNotes)
+			toast.info("Notes has been loaded")
 		}
 	}, []);
 

@@ -1,5 +1,5 @@
 # React Note App
-## _Build with React+Vite and Bootstrap_
+## _Build with React+Vite and Tailwind_
 
 Note app with React+Vite, Tailiwind, Toastify, and Local Storage
 

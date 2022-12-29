@@ -1,9 +1,10 @@
-import { useState, useEffect } from 'react'
+import { lazy, useState, useEffect } from 'react'
 import { nanoid } from 'nanoid';
-import NoteList from './component/NoteList'
 import SearchBar from './component/SearchBar'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+
+const NoteList = lazy(() => import('./component/NoteList'))
 
 const App = () => {
 	const [notes, setNotes] = useState([])
